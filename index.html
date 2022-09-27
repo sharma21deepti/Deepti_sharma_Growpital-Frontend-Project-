@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Deepti Sharma</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+      integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body >
+    <div id="main2" class="add_js">
+    <div id="header">
+      <h2>Growpital</h2>
+      <div id="nav">
+        <ul id="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <!-- </ul> -->
+          <!-- <ul id="icon navbar"> -->
+          <li>
+            <a href="#"
+              ><i
+                class="fa-regular fa-bell"
+                style="margin-left: 600px; color: rgb(222, 222, 6)"
+              ></i
+            ></a>
+          </li>
+          <li>
+            <a href="#">
+                <i
+                class="fa-regular fa-user"
+                style="margin-right: 15px; color: rgb(222, 222, 6)"
+              ></i
+            ></a>
+          </li>
+          <!-- </ul> -->
+        </ul>
+      </div>
+    </div>
+
+    <!-- <div id="wrapper"> -->
+        <div id="main">
+    <div class="sidebar">
+
+      <ul id="nav2">
+        <li>
+          <a href="#"> 
+           Menu</a>
+          <hr id="line">
+        </li>
+        <li>
+          <a href="#"> Home</a>
+        </li>
+        <li>
+          <a href="#"> Portfolio</a>
+        </li>
+        <li>
+          <a href="#">Invest</a>
+        </li>
+        <li class="active">
+          <a href="#">Wallet</a>
+        </li>
+        <li>
+          <a href="#"> Support</a>
+        </li>
+      </ul>
+    </div>
+      <span id="card">
+        <p>Your Balance </p>
+        <h2>&#x20B9; 4210.00 </h2>
+
+        <button class="yellow">Add money</button>
+        <button class="black">Withdraw</button>
+      </span>
+    
+   <table id="table">
+    <tr>
+        <th class="trac">Transactions</th>
+        <th  class="view">View all</th>
+    </tr>
+    <tr>
+        <td>Youtube premium </td>
+        
+        <td >-&#x20B9;3,000</td>
+    </tr>
+    <tr>
+        <td>Facebook Ads</td>
+        <td class="add">+&#x20B9;3,000</td>
+    </tr>
+    <tr>
+        <td>Facebook Ads</td>
+        <td class="fail">-&#x20B9;3,000</td>
+    </tr>
+    <tr>
+        <td>Hemant kant malviya Sent Money To Bank</td>
+        <td>+&#x20B9;3,000</td>
+    </tr>
+   </table>
+
+   <span id="card2">
+    <p>Add Money</p>
+    <form>
+        <input type="number" id="input">
+    </form>
+    <br>
+
+    <button class="amt">&#x20B9;5,000</button>
+    <button class="amt">&#x20B9;10,000</button>
+    <button class="amt">&#x20B9;50,000</button>
+    <button class="amt-sel">&#x20B9;100,000</button>
+
+    <button class="rtg">Send Money To Bank 
+        <a href="#">Know more</a>
+    </button>
+    <a href><button data-modal-target="#modal" class="continue" onclick="on()" >Continue</button></a>
+   </span>
+</div>
+</div>
+<!-- ------------Modal Popup------------------>
+
+
+<div id="modal" class="active">
+    <button data-modal-close class="close">&times;</button>
+    <div id="text">
+        <p>Money added to wallet from bank account </p>
+       
+    </div>
+    <div id="amount">
+      
+    </div>
+    <div id="date">
+     
+    </div>
+    <div class="confirm">
+      <div id="msg">Transaction Complete!</div>
+      <div id="sub-msg">Tap to view this transaction</div>
+    </div>
+    <div id="card3">
+        <div class="fromto">From</div>
+        <div id="name"></div>
+        <div id="ifsc"></div>
+        <div id="ifsc1"></div>
+        <div id="date1">
+            12 Aug 2022, 03:55pm
+        </div>
+        <br>
+        <div class="fromto">To</div>
+        <div id="name1">Saurabh Sharma</div>
+        <div id="ifsc2">Growpital Wallet</div>
+        <div id="ifsc3">Ref No. DBTR/222201998174</div>
+        <div id="date2">
+            
+        </div>
+
+        <br>
+       <div id="method">Payment Method:<span id="date3">UPI</span></div>
+       <div id="method1">Transaction ID:<span id="transid">DBTR/222201998174</span></div>
+    </div>
+    <button class="yellow">Help</button>
+    <button class="black">Share</button>
+</div>
+<div id="overlay" class="add_js"></div>
+ 
+    <script src="script.js" async defer></script>
+    <script
+      src="https://kit.fontawesome.com/ae3351d292.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
